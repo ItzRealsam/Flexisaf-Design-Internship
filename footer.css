@@ -1,0 +1,123 @@
+.footer{
+  background-color: #020730;
+  color: white;
+  display: flex;
+  padding-top: 1rem; 
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+footer{
+  margin-top: 2em;
+  background-color: #020730;
+  width: 100%;
+  padding-bottom:0.5em ;
+}
+
+
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;  
+}
+
+.first-section-of-footer-container{
+
+flex: 1;
+}
+
+.footer-logo-company-container{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+ flex-wrap: nowrap;
+ justify-content: left;
+
+}
+
+.footer-company-logo{
+  width: 5vw;
+ }
+
+ .footer-company-name{
+  font-sie: 1.15rem;
+  font-size: 2.1vw;
+  font-weight: 500;
+  flex-wrap: nowrap;
+  color: rgb(191, 242, 242);
+  
+}
+
+  .blogs-translators-container{
+display: flex;
+flex-direction: column;
+line-height: 2.3;
+justify-content: left;
+align-items: start;
+padding-top: 2em;
+font-size: 0.5rem;
+
+  }
+
+
+  .icons-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 4px;
+  }
+
+    .icons-container div {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 15px;  /* Fixed width */
+      height: 20px; /* Fixed height */
+      overflow: visible;  /* Allow overflow on hover */
+      transition: transform 0.3s ease;
+      cursor: pointer;
+     
+    }
+
+    .icons-container img{
+      width: 15px;
+      height: 15px;
+      transition: transform 0.4s eae;
+      
+      
+    }
+
+  .faceebook-icon:hover{
+    transform: scale(1.3);
+    z-index: 1;
+    
+  }
+
+  .footer-row2-container{
+    flex: 2;
+    display: flex;
+    line-height: 2.3;
+    justify-content: space-evenly;
+    
+  }
+
+  .footer-h1{
+    font-size: 0.68rem;
+    font-weight: bold;
+    
+  }
+
+  .footer-h2{
+    font-size: 0.5rem;
+  }
+
+  .copyright-container{
+    
+    color: rgb(191, 242, 242);
+    text-align: center;
+    font-size: 0.5rem;
+  }
